@@ -83,7 +83,7 @@
 
    - R_buscar: `^\d+::([À-ÿ\/!\+#\*·\?\w&\s\$:,\(\)'\.-]+)\s\((\d{4})\)::.*$`
 
-  - R_reemplazarSQL: `INSERT INTO movies (year,title) values($2,'$1');`
+   - R_reemplazarSQL: `INSERT INTO movies (year,title) values($2,'$1');`
    - R_reemplazarObjetosJSON: `{\n"title":"$1", \n"year":"$2"\n},`
    - R_reemplazarCSV: `$1,$2`
 
